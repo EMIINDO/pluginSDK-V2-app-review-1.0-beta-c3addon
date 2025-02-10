@@ -1,0 +1,34 @@
+{
+  "is-c3-addon": true,
+  "sdk-version": 2,
+  "min-construct-version": "r401",
+  "type": "plugin",
+  "name": "plugin_app_review",
+  "id": "EMI_INDO_plugin_app_review",
+  "version": "1.0.0.0",
+  "author": "EMI_INDO",
+  "website": "https://www.cordova-c3addon.store",
+  "documentation": "https://www.cordova-c3addon.store/?p=223",
+  "description": "Supported platforms = Android ||  IOS",
+  "editor-scripts": [
+    "plugin.js",
+    "type.js",
+    "instance.js"
+  ],
+  "file-list": [
+    "c3runtime/main.js",
+    "c3runtime/plugin.js",
+    "c3runtime/type.js",
+    "c3runtime/instance.js",
+    "c3runtime/conditions.js",
+    "c3runtime/actions.js",
+    "c3runtime/expressions.js",
+    "lang/en-US.json",
+    "aces.json",
+    "addon.json",
+    "icon.svg",
+    "instance.js",
+    "plugin.js",
+    "type.js"
+  ]
+}

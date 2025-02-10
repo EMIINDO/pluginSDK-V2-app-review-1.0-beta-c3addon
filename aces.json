@@ -1,0 +1,29 @@
+{
+  "act": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "requestreview",
+        "scriptName": "Requestreview",
+        "highlight": false
+      },
+      {
+        "id": "requestreview2",
+        "scriptName": "Requestreview2",
+        "highlight": false
+      },
+      {
+        "id": "packagename",
+        "scriptName": "Packagename",
+        "highlight": false,
+        "params": [
+          {
+            "id": "pk",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "expressions": []
+  }
+}

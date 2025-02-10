@@ -1,0 +1,42 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for plugin_app_review Plugin",
+  "text": {
+    "plugins": {
+      "emi_indo_plugin_app_review": {
+        "name": "plugin_app_review",
+        "description": "Supported platforms = Android ||  IOS",
+        "help-url": "https://www.cordova-c3addon.store/?p=223",
+        "properties": {},
+        "aceCategories": {
+          "act": "Platforms: Android || IOS 10.3+ only."
+        },
+        "conditions": {},
+        "actions": {
+          "requestreview": {
+            "list-name": "open Store Screen",
+            "display-text": "open Store Screen",
+            "description": "Most of time you can just use a boilerplate below to trigger the inapp review dialog and fallback to app/play store screen when the dialog wasn't displayed:"
+          },
+          "requestreview2": {
+            "list-name": "Request review",
+            "display-text": "Request review",
+            "description": "Launches inapp review dialog."
+          },
+          "packagename": {
+            "list-name": "Package name",
+            "display-text": " Set Package name ([b]{0}[/b]).",
+            "description": "Launches App/Play store page with a review form",
+            "params": {
+              "pk": {
+                "name": "Set Package name",
+                "desc": "By default current app screen is displayed. Optionally you can pass a package name string to show another app details."
+              }
+            }
+          }
+        },
+        "expressions": {}
+      }
+    }
+  }
+}
